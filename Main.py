@@ -47,24 +47,24 @@ def main():
             channel="chrome",
             no_viewport=True,
             args=[
-                "--disable-blink-features=AutomationControlled",  # Bot tespiti (navigator.webdriver) için
-                "--disable-infobars",  # "Chrome is being controlled..." uyarısını engeller
+                "--disable-blink-features=AutomationControlled",  
+                "--disable-infobars",  
                 "--no-sandbox",
                 "--disable-dev-shm-usage",
                 "--disable-web-security",
                 "--disable-features=IsolateOrigins,site-per-process",
-                "--start-maximized",  # Tarayıcıyı tam ekran başlatır
+                "--start-maximized", 
                 "--window-position=0,0",
-                "--window-size=1280,800",  # İnsansı viewport
+                "--window-size=1280,800", 
                 "--disable-background-timer-throttling",
                 "--disable-backgrounding-occluded-windows",
                 "--disable-renderer-backgrounding",
-                "--mute-audio",  # Opsiyonel
+                "--mute-audio", 
                 "--disable-popup-blocking",
-                "--disable-extensions",  # Bazı botlara özel eklentiler devre dışı
+                "--disable-extensions",  
                 "--hide-scrollbars",
-                "--lang=tr-TR",  # Dil ayarı
-                "--blink-settings=imagesEnabled=true",  # Görsel içerikler yüklensin (insansı davranış)
+                "--lang=tr-TR", 
+                "--blink-settings=imagesEnabled=true",  
             ])
         print("Browser Başlatıldı")
         print("context oluşturulyor...")
@@ -111,7 +111,7 @@ def main():
         print("İşlemler başarıyla tamamlandı.")
         print("Siteye gidiliyor...")
         page.goto("https://www.google.com/")
-        page.wait_for_timeout(random.uniform(2,3))  # Gerçek kullanıcı gibi bekle
+        page.wait_for_timeout(random.uniform(2,3))  
         page.goto("https://kosmosvize.com.tr/#", referer="https://www.google.com/")
         
         webgl_vendor = page.evaluate('''() => {
