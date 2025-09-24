@@ -35,7 +35,7 @@ Ensure you have Python 3.8+ installed on your system.
 First, clone the `kosmos-visa-automation` repository to your local machine:
 
 ```bash
-git clone https://github.com/kosmos-visa-automation/kosmos-visa-automation.git
+git clone https://github.com/DunyaErdin/kosmos-visa-automation.git
 cd kosmos-visa-automation
 ```
 
