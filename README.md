@@ -4,8 +4,8 @@ A powerful Python-based bot designed to streamline and automate the Greece visa 
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3.0-green)
-![Stars](https://img.shields.io/github/stars/kosmos-visa-automation/kosmos-visa-automation?style=social)
-![Forks](https://img.shields.io/github/forks/kosmos-visa-automation/kosmos-visa-automation?style=social)
+![Stars](https://img.shields.io/github/stars/DunyaErdin/kosmos-visa-automation?style=social)
+![Forks](https://img.shields.io/github/forks/DunyaErdin/kosmos-visa-automation?style=social)
 
 > ⚠️ This is not a complete bot. It’s a **preparation project** that lays the groundwork for future automation using Puppeteer.  
 > There are no site-specific scripts or tasks yet — this is the foundation.
